@@ -1,12 +1,12 @@
 import type { PortfolioConfig } from './types';
 
 export const config: PortfolioConfig = {
-    name: 'Alex Doe',
+    name: 'Sowmya Bellur',
     role: 'Senior Frontend Engineer at Google',
     about: 'I build exceptional and accessible digital experiences for the web.',
     bio: "With over a decade of experience, I've transformed complex problems into elegant, user-friendly solutions. My passion lies in crafting pixel-perfect UIs and writing clean, scalable code. When I'm not coding, I enjoy exploring new hiking trails and photography.",
     contact: {
-        email: 'alex.doe@example.com',
+        email: 'sowmyabellur04.com',
         github: 'https://github.com',
         linkedin: 'https://linkedin.com/in/',
         twitter: 'https://twitter.com',
