@@ -80,7 +80,7 @@ const Internship: React.FC<InternshipProps> = ({ internship }) => {
                     <a
                         className='inline-flex items-center font-medium leading-tight text-slate-200 group'
                         aria-label='View Full Résumé'
-                        href='/resume.pdf'
+                        href='/Sowmya_Bellur_Resume.pdf'
                     >
                         <span>
                             <span className='border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none'>
