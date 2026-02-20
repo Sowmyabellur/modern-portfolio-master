@@ -1,4 +1,4 @@
-export interface Experience {
+export interface Internship {
   duration: string;
   company: string;
   role: string;
@@ -29,7 +29,7 @@ export interface PortfolioConfig {
   bio: string;
   contact: SocialLinks;
   skills: string[];
-  experience: Experience[];
+  internship: Internship[];
   projects: Project[];
 }
 

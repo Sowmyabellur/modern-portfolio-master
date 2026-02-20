@@ -15,8 +15,8 @@ const About: React.FC<AboutProps> = ({ bio, skills }) => {
       <div>
         <p className="mb-4 text-slate-400">{bio}</p>
         <ul className="mt-8 flex flex-wrap gap-2" aria-label="Skills">
-          {skills.map((skill) => (
-            <li key={skill} className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+          {skills.map((skill, index) => (
+  <li key={skill + index} className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
               {skill}
             </li>
           ))}

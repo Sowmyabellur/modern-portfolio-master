@@ -17,7 +17,7 @@ Twitter: ${config.contact.twitter}
 Skills: ${config.skills.join(', ')}
 
 Experience:
-${config.experience
+${config.internship
     .map(
         e => `${e.role} at ${e.company} (${e.duration})
 ${e.description.map(d => `  • ${d}`).join('\n')}`

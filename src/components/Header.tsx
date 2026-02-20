@@ -15,7 +15,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ name, role, about, contact }) => {
     const navItems = [
         { name: 'About', href: '#about' },
-        { name: 'Experience', href: '#experience' },
+        { name: 'Internship', href: '#internship' },
         { name: 'Projects', href: '#projects' },
     ];
 

@@ -1,13 +1,14 @@
-import type { Experience } from '@/lib/types';
+import type { Internship } from '@/lib/types';
+
 import React from 'react';
 import ArrowLeftIcon from './icons/ArrowLeftIcon';
 import ExternalLinkIcon from './icons/ExternalLinkIcon';
 
-interface ExperienceProps {
-    experiences: Experience[];
+interface InternshipProps {
+    internship? :Internship[];
 }
 
-const ExperienceItem: React.FC<Experience> = ({
+const IntershipItem: React.FC<Internship> = ({
     duration,
     company,
     role,
@@ -57,22 +58,22 @@ const ExperienceItem: React.FC<Experience> = ({
     </li>
 );
 
-const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
+const Internship: React.FC<InternshipProps> = ({ internship }) => {
     return (
         <section
-            id='experience'
+            id='internship'
             className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24'
-            aria-label='Work experience'
+            aria-label='Internship'
         >
             <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
                 <h2 className='text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only'>
-                    Experience
+                    Internship
                 </h2>
             </div>
             <div>
                 <ol className='group/list list-none pl-0'>
-                    {experiences.map((exp, index) => (
-                        <ExperienceItem key={index} {...exp} />
+                    {internship?.map((exp, index) => (
+                        <IntershipItem key={index} {...exp} />
                     ))}
                 </ol>
                 <div className='mt-12'>
@@ -99,4 +100,4 @@ const Experience: React.FC<ExperienceProps> = ({ experiences }) => {
     );
 };
 
-export default Experience;
+export default Internship;

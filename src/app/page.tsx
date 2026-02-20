@@ -1,6 +1,6 @@
 import About from '@/components/About';
 import Chat from '@/components/Chat';
-import Experience from '@/components/Experience';
+import Internship from '@/components/Internship';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Projects from '@/components/Projects';
@@ -19,7 +19,7 @@ function App() {
                     />
                     <main id='content' className='pt-24 lg:w-1/2 lg:py-24'>
                         <About bio={config.bio} skills={config.skills} />
-                        <Experience experiences={config.experience} />
+                        <Internship internship ={config.internship} />
                         <Projects projects={config.projects} />
                         <Footer contact={config.contact} />
                     </main>
