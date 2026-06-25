@@ -2,9 +2,9 @@ import type { PortfolioConfig } from './types';
 
 export const config: PortfolioConfig = {
     name: 'Sowmya Bellur',
-    role: 'B.E. CSE(DATA SCIENCE) Student',
+    role: 'B.E. CSE(DATA SCIENCE) ',
     about: 'I am a Computer Science student passionate about building modern web applications and exploring Artificial Intelligence. I have hands-on experience in Full Stack Development using React.js, Node.js, MongoDB, and JavaScript through internships and academic projects.',
-    bio: "Currently pursuing Computer Science (Data Science) engineering in Guru Nanak Dev Engineering College, Bidar.Reliable with a good work , compassionate and curious to quickly adapt to new tasks and environment. Current student looking to join the workforce to gain real-world experience. Ability to complete tasks on time in both individual and team settings.I enjoy solving technical problems, learning new technologies, and building user-friendly digital solutions. I am currently seeking an entry-level software development role where I can contribute, grow, and apply my technical skills in a professional environment.",
+    bio: "Graduated in Computer Science (Data Science) engineering in Guru Nanak Dev Engineering College, Bidar.Reliable with a good work , compassionate and curious to quickly adapt to new tasks and environment. Current student looking to join the workforce to gain real-world experience. Ability to complete tasks on time in both individual and team settings.I enjoy solving technical problems, learning new technologies, and building user-friendly digital solutions. I am currently seeking an entry-level software development role where I can contribute, grow, and apply my technical skills in a professional environment.",
     contact: {
         email: 'sowmyabellur04@gmail.com',
         github: 'https://github.com/Sowmyabellur',
