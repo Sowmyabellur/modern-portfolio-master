@@ -122,5 +122,13 @@ export const config: PortfolioConfig = {
             github: 'https://github.com/Sowmyabellur/ai-teacher-main',
             link: 'https://ai-teacher-main.vercel.app/',
         },
+        {
+            name: 'Early Stage of Alzhimers Disease Detection Using ML ',
+            description:
+                'Developed a Convolutional Neural Network (CNN) model using MRI image datasets from Kaggle. Performed image preprocessing, model training, and evaluation. Gained practical experience in Deep Learning, Computer Vision, and model optimization.',
+            technologies: ['Python | TensorFlow | Keras | OpenCV | NumPy | Pandas | Matplotlib | Seaborn | Scikit-learn | SQLite | CNN | Deep Learning | Computer Vision | Medical Image Analysis'],
+            github: 'https://github.com/Sowmyabellur/Alzemeir-Disease-Detection-ML',
+            
+        },
     ],
 };
