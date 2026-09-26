@@ -26,6 +26,16 @@ export const config: PortfolioConfig = {
         'SQL',
     ],
     internship: [
+         {
+            duration: 'Aug 2026 -ongoing ',
+            company: 'UpGrad (Training Program)',
+            role: 'Generative AI & Data Science',
+            
+            description: [
+                'Hands-on training in Excel, Python, SQL, Data Analysis, and Generative AI.'
+
+            ],
+        },
         {
             duration: 'Aug 2025 -Sept 2025 ',
             company: 'Edunet Foundation (AICTE & IBM SkillsBuild)',
@@ -69,13 +79,30 @@ export const config: PortfolioConfig = {
         },
     ],
     projects: [
+         {
+            name: 'Coffee Shop Sales Analysis ',
+            description:
+                " An interactive Excel dashboard analyzing 15,000 coffee shop transactions to identify sales trends, customer purchasing patterns, product performance, store performance, and peak sales periods.Cleaned and transformed data using Power Query,Used SUMIFS, AVERAGEIFS, MAXIFS and PivotTables,Created interactive dashboards with KPIs, charts and slicers,Identified top-performing products, locations and time periods.",
+            technologies: ['Excel' ,'Power Query' , 'PivotTables' , 'Data Analysis ', 'Dashboard'],
+            github: 'https://github.com/Sowmyabellur/Coffee_Chain_Sales_Analysis',
+            
+        },
+         {
+            name: 'Superstore Sales & Profit Analysis',
+            description:
+                " An end-to-end Excel analysis of the Superstore dataset to understand sales, profit, customer behavior, regional performance, discounts, products and business trends.Analyzed 9,994 records across 21 columns,Cleaned and transformed data using Power Query ,Performed regional, product, customer and time-series analysis,Analyzed the relationship between discount and profit                ,Created an interactive Sales & Profit Dashboard using KPIs, charts and slicers",
+            technologies: ['Excel' ,'Power Query' , 'PivotTables' , 'Data Analysis ', 'Dashboard'],
+            github: 'https://github.com/Sowmyabellur/Superstore-Sales-and-Profit-Analysis',
+            
+        },
+       
         {
             name: 'URL Shortener',
             description:
                 "Developed a lightweight web application that converts long URLs into short, shareable links using HTML, CSS, and JavaScript. Implemented client-side validation and dynamic link generation using JavaScript and DOM manipulation. Designed a responsive and user-friendly interface to ensure smooth interaction across devices. This project demonstrates frontend development skills and interactive web application design.",
             technologies: ['HTML', 'CSS', 'JavaScript'],
             github: 'https://github.com/Sowmyabellur/URL-Shortener',
-            link: 'https://example.com',
+            
         },
         {
             name: 'HomelyHub',
